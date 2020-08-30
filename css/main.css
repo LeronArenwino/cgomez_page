@@ -4,8 +4,10 @@
     --green-color:#7ACC2D;
     --white-color:white;
     --black-color:#393e46;
-    --dark-blue-color:#0f4c75;
-    --white-blue-color:#bbe1fa;
+    --dark-blue-color:#142850;
+    --white-blue-color:#27496D;
+    --medium-blue-color:#00909E;
+    --gray-color:#DAE1E7;
     
     /* Typography */
     --normal:15px;
@@ -38,6 +40,10 @@ h2 {
     background-color: var(--white-color);    
     justify-content: left;
     text-align: center;
+}
+
+figure {
+    margin: 0px;
 }
 
 /*------------ Body ------------*/
@@ -115,6 +121,69 @@ ul {
 }
 
 /*------------ US ------------*/
+
+/*------------ projects ------------*/
+
+.projects {
+    background-color: #ffffff;
+    color: #222831;
+    margin: 0px 40px;
+    padding: 20px;
+}
+
+.project-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project{
+    margin: 1%;
+    width: 48%;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: var(--gray-color);
+}
+
+.project img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-detail{
+    margin: 20px 40px;
+    background-color: #ffffff;
+    margin-top: -40px;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.project-description{
+    text-align: left;
+}
+
+.project-url{
+    border: 1px solid;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: var(--black-color);
+    border-radius: 5px;
+}
+
+.container-project{
+    max-width: 1000px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+/*------------ projects ------------*/
 
 /*------------ Footer ------------*/
 

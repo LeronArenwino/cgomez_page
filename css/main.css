@@ -1,4 +1,4 @@
-/* ---------Variables */
+/*------------ Variables ------------*/
 
 :root{
     --green-color:#7ACC2D;
@@ -18,9 +18,9 @@
     
     }
     
-    /* ---------Variables */
+/*------------ Variables ------------*/
 
-/* Body */
+/*------------ Body ------------*/
 body {
     background: var(--white-color);
     font-family: 'Asap', sans-serif;
@@ -40,7 +40,9 @@ h2 {
     text-align: center;
 }
 
-/* Header */
+/*------------ Body ------------*/
+
+/*------------ Header ------------*/
 
 .header {
     background-color: var(--dark-blue-color);
@@ -101,7 +103,9 @@ ul {
     font-size: large;
 }
 
-/* us */
+/*------------ Header ------------*/
+
+/*------------ US ------------*/
 
 .us{
     background-color: var(--white-color);
@@ -110,7 +114,9 @@ ul {
     width: 100%;
 }
 
-/* Footer */
+/*------------ US ------------*/
+
+/*------------ Footer ------------*/
 
 .footer .container{
     background-color: #222831;
@@ -133,3 +139,4 @@ ul {
     color: var(--white-blue-color);
 }
 
+/*------------ Footer ------------*/

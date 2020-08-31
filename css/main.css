@@ -1,11 +1,13 @@
-/* ---------Variables */
+/*------------ Variables ------------*/
 
 :root{
     --green-color:#7ACC2D;
     --white-color:white;
     --black-color:#393e46;
-    --dark-blue-color:#0f4c75;
-    --white-blue-color:#bbe1fa;
+    --dark-blue-color:#142850;
+    --white-blue-color:#27496D;
+    --medium-blue-color:#00909E;
+    --gray-color:#DAE1E7;
     
     /* Typography */
     --normal:15px;
@@ -18,9 +20,9 @@
     
     }
     
-    /* ---------Variables */
+/*------------ Variables ------------*/
 
-/* Body */
+/*------------ Body ------------*/
 body {
     background: var(--white-color);
     font-family: 'Asap', sans-serif;
@@ -28,10 +30,28 @@ body {
     margin: 0px auto;
 }
 
-/* Header */
+
+h2 {
+    color: var(--black-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 28px;
+    margin: 100px;
+    background-color: var(--white-color);    
+    justify-content: left;
+    text-align: center;
+}
+
+figure {
+    margin: 0px;
+}
+
+/*------------ Body ------------*/
+
+/*------------ Header ------------*/
 
 .header {
-    background-color: var(--dark-blue-color);
+    background-color: var(--medium-blue-color);
     color: var(--white-color);
     display: flex;
     justify-content: space-between;
@@ -43,8 +63,7 @@ body {
     
 }
 
-ol,
-ul {
+.header ul {
     text-align: center;
     margin: 0px;
     padding: 0px;
@@ -69,8 +88,8 @@ ul {
 }
 
 .top_header{
-    width: 30%;
-    background-color: var(--dark-blue-color);
+    width: 35%;
+    background-color: var(--medium-blue-color);
     text-align: center;
     margin-top: 0px;
     height: 100%;
@@ -79,7 +98,7 @@ ul {
 }
 
 .container{
-    width: 70%;
+    width: 65%;
     height: 100%;
     text-align: center;
     margin: 0 auto;
@@ -89,13 +108,216 @@ ul {
     font-size: large;
 }
 
-/* us */
+/*------------ Header ------------*/
+
+/*------------ US ------------*/
 
 .us{
-    background-color: var(--black-color);
+    background-color: var(--white-color);
+    color: var(--black-color);
     height: 500px;
+    width: 100%;
+}
+
+/*------------ US ------------*/
+
+/*------------ projects ------------*/
+
+.projects {
+    background-color: #ffffff;
+    color: #222831;
+    margin: 0px 40px;
+    padding: 20px;
+}
+
+.project-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project{
+    margin: 1%;
+    width: 48%;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: var(--gray-color);
+}
+
+.project img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-detail{
+    margin: 20px 40px;
+    background-color: #ffffff;
+    margin-top: -40px;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.project-description{
+    text-align: left;
+}
+
+.project-url{
+    border: 1px solid;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: var(--black-color);
+    border-radius: 5px;
+}
+
+.container-project{
+    max-width: 1000px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+/*------------ projects ------------*/
+
+/*------------ expirience ------------*/
+
+.expiriences {
+    background: var(--white-color);
+    padding: 20px;
+    margin-bottom: 5%;
+}
+
+.container-expiriences{
+    max-width: 1000px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+.expirience {
+    /*border: 1px solid #363636;*/
+    border-radius: 10px;
+    padding: 20px;
+    background-color: var(--white-color);
+    color: #222831;
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.expirience-course,
+.expirience-date,
+.expirience-url {
+  margin: 10px 0;
+}
+
+.expirience-course{
+    font-size: 15px;
+}
+
+.expirience-description {
+  font-size: 20px;
+}
+
+.expirience-title {
+    color: var(--black-color);
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.expirience-course {
+    margin: 10px 0px;
+}
+
+.expirience-details {
+    width: 50%;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.expirience-details a{
+    width: 50%;
+    overflow: hidden;
+    word-wrap: break-word;
+    color: var(--black-color);
 }
 
 
+.expirience-imageContainer {
+    width: 50%;
+    height: 250px;
+    object-fit: cover;
+    text-align: center;
+}
 
 
+/*------------ expirience ------------*/
+
+/*------------ Footer ------------*/
+
+.top-footer{
+    height: auto;
+    background-color: var(--black-color);
+    display: flex;
+    justify-content: center;
+    color: var(--white-color);
+}
+
+.top-footer h2{
+    font-size: 15px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    margin: 25px;
+}
+
+.top-footer .content{
+    text-align: center;
+    padding: 0px 100px;
+}
+
+.top-footer .content ul{
+    list-style: none;
+    padding: 0;
+}
+
+.top-footer .content a{
+    text-decoration: none;
+    color: var(--white-color);
+    text-transform: none;   
+}
+
+.footer .container-footer{
+    background-color: #222831;
+    color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    margin: 0px;
+    flex-wrap: wrap;
+    width: auto;
+    text-transform: none;
+}
+
+.footer a {
+    color: #f8f8f8;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: var(--white-blue-color);
+}
+
+/*------------ Footer ------------*/

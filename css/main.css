@@ -184,6 +184,87 @@ figure {
 
 /*------------ projects ------------*/
 
+/*------------ expirience ------------*/
+
+.expiriences {
+    background: var(--white-color);
+    padding: 20px;
+    margin-bottom: 5%;
+}
+
+.container-expiriences{
+    max-width: 1000px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+.expirience {
+    /*border: 1px solid #363636;*/
+    border-radius: 10px;
+    padding: 20px;
+    background-color: var(--white-color);
+    color: #222831;
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.expirience-course,
+.expirience-date,
+.expirience-url {
+  margin: 10px 0;
+}
+
+.expirience-course{
+    font-size: 15px;
+}
+
+.expirience-description {
+  font-size: 20px;
+}
+
+.expirience-title {
+    color: var(--black-color);
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.expirience-course {
+    margin: 10px 0px;
+}
+
+.expirience-details {
+    width: 50%;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.expirience-details a{
+    width: 50%;
+    overflow: hidden;
+    word-wrap: break-word;
+    color: var(--black-color);
+}
+
+
+.expirience-imageContainer {
+    width: 50%;
+    height: 250px;
+    object-fit: cover;
+    text-align: center;
+}
+
+
+/*------------ expirience ------------*/
+
 /*------------ Footer ------------*/
 
 .top-footer{

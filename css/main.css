@@ -56,7 +56,6 @@ figure {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    height: 100px;
     margin: 0px 0px;
     flex-wrap: wrap;
     padding: 0%;
@@ -92,14 +91,12 @@ figure {
     background-color: var(--medium-blue-color);
     text-align: center;
     margin-top: 0px;
-    height: 100%;
     align-items: center;
     font-size: larger;
 }
 
-.container{
+.container-header{
     width: 65%;
-    height: 100%;
     text-align: center;
     margin: 0 auto;
     display: flex;
@@ -321,3 +318,40 @@ figure {
 }
 
 /*------------ Footer ------------*/
+
+@media screen and (max-width: 1023px){
+
+    .header{
+        display: flex;
+        justify-content: center;
+    }
+
+    .top_header{
+        width: 100%;
+    }
+
+    .container-header{
+        width: 100%;
+        height: 80px;
+    }
+
+    .container{
+        padding: 0px .9em;
+    }
+
+    .expirience{
+        display: block;
+        text-align: center;
+    }
+
+    .expirience-details{
+        width: auto;
+        font-size: 16px;
+    }
+
+    .expirience-imageContainer{
+        width: auto;
+        text-align: center;
+    }
+
+}

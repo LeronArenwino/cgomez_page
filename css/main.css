@@ -51,7 +51,7 @@ figure {
 /*------------ Header ------------*/
 
 .header {
-    background-color: var(--dark-blue-color);
+    background-color: var(--medium-blue-color);
     color: var(--white-color);
     display: flex;
     justify-content: space-between;
@@ -63,8 +63,7 @@ figure {
     
 }
 
-ol,
-ul {
+.header ul {
     text-align: center;
     margin: 0px;
     padding: 0px;
@@ -90,7 +89,7 @@ ul {
 
 .top_header{
     width: 35%;
-    background-color: var(--dark-blue-color);
+    background-color: var(--medium-blue-color);
     text-align: center;
     margin-top: 0px;
     height: 100%;
@@ -187,7 +186,38 @@ ul {
 
 /*------------ Footer ------------*/
 
-.footer .container{
+.top-footer{
+    height: auto;
+    background-color: var(--black-color);
+    display: flex;
+    justify-content: center;
+    color: var(--white-color);
+}
+
+.top-footer h2{
+    font-size: 15px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    margin: 25px;
+}
+
+.top-footer .content{
+    text-align: center;
+    padding: 0px 100px;
+}
+
+.top-footer .content ul{
+    list-style: none;
+    padding: 0;
+}
+
+.top-footer .content a{
+    text-decoration: none;
+    color: var(--white-color);
+    text-transform: none;   
+}
+
+.footer .container-footer{
     background-color: #222831;
     color: #f8f8f8;
     display: flex;
@@ -197,6 +227,7 @@ ul {
     margin: 0px;
     flex-wrap: wrap;
     width: auto;
+    text-transform: none;
 }
 
 .footer a {
